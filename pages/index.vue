@@ -29,19 +29,6 @@
             </li>
           </ul>
           </div>
-          <div>
-            <a
-          href="https://github.com/debs-obrien/nuxtjs-azure-static-app"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-        <a href="https://nuxtjs.org/faq/deployment-azure-static-web-apps" target="_blank" class="button--green">
-          Documentation
-        </a>
-          </div>
-        
       </div>
     </div>
   </div>
