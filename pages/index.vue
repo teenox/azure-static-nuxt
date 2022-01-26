@@ -22,13 +22,13 @@
               <NuxtLink to="/about" >About page</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/spa-fallback" >Spa Fallback page</NuxtLink>
+              <NuxtLink to="/spa-fallback" >Spa Fallback page SEOs</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/404" >Custom error page</NuxtLink>
             </li>
           </ul>
-          </div>
+          </div>  
       </div>
     </div>
   </div>
