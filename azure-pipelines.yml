@@ -14,7 +14,7 @@ pool:
 jobs:
   - template: deployment/vue-static.yml@templates
     parameters:
-      packageJsonFolder: './teenox/azure-static-nuxt'
-      cacheKey: 'npm | "$(Agent.OS)" | ./teenox/azure-static-nuxt/package-lock.json'
+      packageJsonFolder: '.'
+      cacheKey: 'npm | "$(Agent.OS)" | ./package-lock.json'
       npmAuthenticate: true
       enableCypressCache: false   
