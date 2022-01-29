@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/tinomanyaya/Personal/_apis/build/status/teenox.azure-static-nuxt?repoName=teenox%2Fazure-static-nuxt&branchName=main)](https://dev.azure.com/tinomanyaya/Personal/_build/latest?definitionId=3&repoName=teenox%2Fazure-static-nuxt&branchName=main)
+
 # nuxtjs-azure-static-app
 
 Demo app to show you how SPA fallback and custom error pages work. 
