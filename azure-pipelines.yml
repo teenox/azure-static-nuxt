@@ -16,5 +16,5 @@ jobs:
     parameters:
       packageJsonFolder: '.'
       cacheKey: 'npm | "$(Agent.OS)" | ./package-lock.json'
-      npmAuthenticate: true
+      npmAuthenticate: false
       enableCypressCache: false   
