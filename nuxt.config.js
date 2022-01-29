@@ -1,10 +1,5 @@
-export default {
+module.exports = {
     generate:{
         exclude: [/spa-fallback/]
     }
 }
-
-module.exports = {
-    ... config
-    }
-        
