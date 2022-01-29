@@ -1,5 +1,3 @@
-module.exports = {
-    generate:{
-        exclude: [/spa-fallback/]
-    }
+export default {
+    target: 'static'
 }
