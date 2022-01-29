@@ -3,3 +3,8 @@ export default {
         exclude: [/spa-fallback/]
     }
 }
+
+module.exports = {
+    ... config
+    }
+        
