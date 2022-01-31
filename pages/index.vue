@@ -13,7 +13,7 @@
         Nuxt.js & Azure
       </h1>
       <h2 class="subtitle">
-        Deploying your static site to Azure Static Web Apps by Tino
+        Deploying your static site to Azure Static Web Apps by Tino Again
       </h2>
       <div class="links">
           <div>
