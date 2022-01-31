@@ -9,7 +9,7 @@ resources:
       endpoint: teenox
       
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-latest'
 
 jobs:
   - template: deployment/vue-static.yml@templates
