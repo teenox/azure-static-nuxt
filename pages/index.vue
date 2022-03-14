@@ -13,7 +13,7 @@
         Nuxt.js & Azure
       </h1>
       <h2 class="subtitle">
-        Deploying your static site to Azure Static Web Apps by Tino Again
+        Deploying your static site to Azure Static Web Apps by Tino Again env update {{ getEnvValue }}
       </h2>
       <div class="links">
           <div>
@@ -35,7 +35,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+    data() {
+    return {
+      message: process.env.HOME
+    }
+  },
+  computed: {
+    getEnvValue(){
+      const HOME = process.env.VUE_APP_HOME;
+      console.log(process.env.VUE_APP_HOME)
+      return HOME
+    }
+  }
+}
 </script>
 
 <style scoped>
